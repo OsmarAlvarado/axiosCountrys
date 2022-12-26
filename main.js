@@ -9,8 +9,8 @@ const infoCountry = countryName => {
 
             countryDetails.forEach(country => {
 
-                //console.log(country.name.common);
-                console.log(country.cca3);
+                console.log(country.name.common);
+                //console.log(country.cca3);
             });
 
             const countryName = document.getElementById('country-name')
@@ -54,7 +54,7 @@ const infoCountry = countryName => {
             //     getCountyInfo('morocco')
             // })
         })
-    //.catch(err => console.error(err))
+        .catch(err => console.error(err))
 }
 
 
